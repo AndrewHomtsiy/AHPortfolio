@@ -1,0 +1,76 @@
+@media screen and (max-width: 1028px) {
+	.container {
+	width: 50%;
+	height: 50%;
+}
+
+	.about {
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-content: center;
+}
+nav {
+	background: dark;
+}
+.navbar {
+	background: dark;
+} 
+#info {
+	height: 100%;
+	}
+.navbar li {
+margin-top: 1%;
+padding: 1%;
+}
+.active a {
+		color:white;
+	background: none;
+}
+.logo h1 {
+	font-size: 48px;
+}
+.logo p {
+	font-size: 40px;
+}
+.personal {
+	width: 90%;
+	padding-left: 5%;
+	text-align: center;
+}
+.collapse  {
+	display: block;
+}
+.about img {
+	padding-left: 6%;
+}
+.logo{
+	padding: 15%;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 15%;
+}
+.resume{
+	display: flex;
+	flex-direction:column-reverse;
+	justify-content:center;
+	align-items:center;
+}
+
+.resumeimg {
+	padding-left: 2%;
+}
+.info {
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+#footer {
+	height: 14vh;
+	position: relative;
+}
+}
+@media screen and (max-width: 2048px){
+	#footer: 20vh;
+}
