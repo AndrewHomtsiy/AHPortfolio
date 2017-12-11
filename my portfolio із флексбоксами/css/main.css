@@ -31,16 +31,17 @@ nav {
 }
 .active a {
 	color:#003300;
-	background:#;
 	opacity: 0.3;
 }
 .nav-item a {
 	opacity: 4;
 	color: white;
 	text-align: center;
-	font-size: 27px;
+	font-size: 25px;
 }
 .nav-item a:hover {
+	padding-top: 1%;
+	padding-bottom: 1%;
 	color:#003300;
 	background: white;
 	opacity: 0.6;
@@ -139,7 +140,6 @@ span{
 
 .resume {
 	display: flex;
-	
 	justify-content: space-around;
 	align-items: center;	
 }
@@ -173,6 +173,7 @@ span{
 text-decoration: none;
  } 
 #footer {
+	margin-top: 4%;
 	background-color: #EAEAEA;
 	height: 11vh;
 }
@@ -181,4 +182,4 @@ text-decoration: none;
 	text-align: center;
 	color:blue;
 }
-
+.
