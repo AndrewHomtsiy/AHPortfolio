@@ -137,7 +137,10 @@ hr {
 span{
 	color: #222;
 }
+#works {
+	display: flex;
 
+}
 .resume {
 	display: flex;
 	justify-content: space-around;
@@ -146,7 +149,90 @@ span{
 .resumeimg {
 	padding-left: 20%;
 }
-
+.cardcontainer {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.cards {
+	display:flex;
+	justify-content:space-between;
+	flex-direction:row;
+	text-decoration: none;
+	margin-top: 15px;
+	padding: 1.5%;
+	box-sizing: border-box;
+}
+.card {
+	position: relative;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+	background: #fefff9;
+	color:#363636;
+	text-decoration: none;
+	box-shadow: rgba(0, 0, 0, 0.85) 0 0 8px 0;
+	border-radius: 4px;
+}
+.cards span {
+	display: block;
+}
+.card .card-summary {
+	padding: 5% 5% 3% 5%;
+}
+.card .card-header {
+	position: relative;
+	height: 175px;
+	overflow: hidden;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background: rgba(255, 255, 255, 0.15);
+	background-blend-mode: overlay;
+	border-radius: 4px 4px 0px 0px ;
+}
+.card .card-header:hover, .card .card-header:focus {
+	background: rgba(255, 255, 255, 0);
+	text-decoration: none;
+}
+.card-title {
+	background-color: rgba(104, 156, 210, 0.85);
+	padding: 3.5% 0 2.5% 0 ;
+	color:white;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.card .card-title h3 {
+	font-size: 1.2em;
+	line-height: 1.2;
+	padding: 0 3.5%;
+	margin: 0;
+	text-align: center;
+} 
+.card .card-meta {
+	max-height: 0;
+	overflow: hidden;
+	color:#666;
+	font-size:.78em;
+	text-transform: uppercase;
+	position: absolute;
+	bottom:5%;
+	padding:0 5%;
+	transition-property: max-height;
+	transition-duration: 0.4s;
+	transition-timing-function:ease-in-out;
+}
+.card:hover, .card:focus{
+	background: white;
+	box-shadow: rgba(0 0 0 0.45) 0px 0px 20px 0px;
+}
+.card:hover .card-title, .card:focus .card-title {
+	background: rgba(154, 156, 210, 0.95);
+}
+.card:hover .card-meta, .card:focus .card-meta {
+	max-height:1.5em;
+	}
 .info {
 	display:flex;
 	flex-wrap:nowrap;
