@@ -15,6 +15,7 @@ nav {
 }
 .navbar {
 	background: dark;
+	margin-right:0;
 } 
 .navbar-toggler {
 	background: dark;
